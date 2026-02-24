@@ -29,7 +29,8 @@ Nutze die Checkboxen, um den Fortschritt zu tracken:
 - [ ] [ ] **Keycloak: Releases, Patches & End-of-Life** – [Link](https://www.versio.io/en/product-release-end-of-life-eol-keycloak-keycloak.html) (Gelesen | Im Diagramm)
 - [ ] [ ] **Keycloak 17: Quarkus instead of WildFly** – [Link](https://www.linuxfabrik.ch/en/blog/keycloak-17-quarkus-instead-of-wildfly) (Gelesen | Im Diagramm)
 - [ ] [ ] **Understanding Realms, Clients, and Roles in Keycloak (Mi Do)** – [Link](https://mi-do.medium.com/understanding-realms-clients-and-roles-in-keycloak-c88a6e57d74f) (Gelesen | Im Diagramm)
-- [ ] [ ] **Understanding Realms, Clients, and Roles in Keycloak (Dorokhovich)** – [Link](https://www.dorokhovich.com/blog/understanding-keycloak-realms-clients-roles) (Gelesen | Im Diagramm)
+- [ ] [ ] **Understanding Realms, Clients, and Roles in Keycloak (Dorokhovich)** – [Link](https://medium.com/@torinks/keycloak-roles-2a521e64344d) (Gelesen | Im Diagramm)
+- [ ] [ ] **Keycloak Roles** – [Link](https://www.dorokhovich.com/blog/understanding-keycloak-realms-clients-roles) (Gelesen | Im Diagramm)
 - [ ] [ ] **Keycloak – Create Realm, Client, Roles, and User (GeeksforGeeks)** – [Link](https://www.geeksforgeeks.org/java/keycloak-create-realm-client-roles-and-user/) (Gelesen | Im Diagramm)
 - [ ] [ ] **Assigning Permissions Using Roles and Groups (Red Hat)** – [Link](https://docs.redhat.com/en/documentation/red_hat_build_of_keycloak/22.0/html/server_administration_guide/assigning_permissions_using_roles_and_groups) (Gelesen | Im Diagramm)
 - [ ] [ ] **A Review on Identity and Access Management Server (KeyCloak)** – [Link](https://www.researchgate.net/publication/343275821_A_Review_on_Identity_and_Access_Management_Server_KeyCloak) (Gelesen | Im Diagramm)
@@ -50,6 +51,7 @@ Nutze die Checkboxen, um den Fortschritt zu tracken:
 - [ ] [ ] **GitHub: daniel-frak/keycloak-user-migration** – [Link](https://github.com/daniel-frak/keycloak-user-migration) (Gelesen | Im Diagramm)
 - [ ] [ ] **GitHub: abdulazezms/keycloak-user-spi** – [Link](https://github.com/abdulazezms/keycloak-user-spi) (Gelesen | Im Diagramm)
 - [ ] [ ] **GitHub: Smartling/keycloak-user-migration-provider** – [Link](https://github.com/Smartling/keycloak-user-migration-provider) (Gelesen | Im Diagramm)
+- [ ] [ ] **Keycloak – User Storage SPI** – [Link](https://www.informatik-aktuell.de/betrieb/sicherheit/keycloak-user-storage-spi.html) (Gelesen | Im Diagramm)
 
 ---
 
