@@ -1,6 +1,6 @@
 # 📚 Recherche-Quellen: KeyCloak OIDC
 
-> **Zugehöriges Diagramm:** [./meine-recherche.drawio](./KeyCloak_BA.drawio)  
+> **Zugehöriges Diagramm:** [./KeyCloak_BA.drawio](./KeyCloak_BA.drawio)  
 > *Kurzbeschreibung: Hier halte ich alle Quellen fest, die in das Diagramm einfließen.*
 
 ---
