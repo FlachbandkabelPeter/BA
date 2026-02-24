@@ -124,6 +124,8 @@ Nutze die Checkboxen, um den Fortschritt zu tracken:
 - [ ] [ ] **Branch by Abstraction – Designing Event-Driven Microservices (Confluent)** – [Link](https://developer.confluent.io/courses/microservices/branch-by-abstraction/) (Gelesen | Im Diagramm)
 - [ ] [ ] **Monolith to Microservices: Step-by-Step Migration Strategies (CircleCI)** – [Link](https://circleci.com/blog/monolith-to-microservices-migration-strategies/) (Gelesen | Im Diagramm)
 - [ ] [ ] **Refactoring a Monolith to Microservices (microservices.io / Chris Richardson)** – [Link](https://microservices.io/refactoring/) (Gelesen | Im Diagramm)
+- [ ] [ ] **Migration guide: SimpleSAMLPHP to Keycloak** – [Link](https://docs.software-univention.de/keycloak-migration/index.html) (Gelesen | Im Diagramm)
+
 
 ---
 
