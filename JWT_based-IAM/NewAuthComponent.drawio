@@ -1,0 +1,354 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
+  <diagram name="Seite-1" id="WCz-t2Dt6kMVdH3O6a2l">
+    <mxGraphModel dx="3027" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-1" parent="1" style="text;html=1;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" value="Auth-Komponente: Gesamtarchitektur" vertex="1">
+          <mxGeometry height="40" width="500" x="640" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;verticalAlign=top;spacingTop=5;dashed=1;" value="Externe Identity Providers" vertex="1">
+          <mxGeometry height="120" width="360" x="280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Keycloak&#xa;(Demo/Test IdP)" vertex="1">
+          <mxGeometry height="60" width="100" x="300" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Azure AD /&#xa;Entra ID" vertex="1">
+          <mxGeometry height="60" width="100" x="410" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;strokeDasharray=3;" value="Weitere&#xa;OIDC IdPs" vertex="1">
+          <mxGeometry height="60" width="100" x="520" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-6" parent="1" style="shape=mxgraph.basic.rect;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;" value="Browser / Client" vertex="1">
+          <mxGeometry height="60" width="140" x="800" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;verticalAlign=top;spacingTop=5;dashed=0;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="620" width="920" x="280" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-8" parent="1" style="text;html=1;fontSize=16;fontStyle=1;align=center;" value="Firmeninternes Framework (Monolith)" vertex="1">
+          <mxGeometry height="30" width="400" x="540" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=0;align=center;verticalAlign=middle;" value="Auth-Middleware&#xa;(Request Interceptor)&#xa;&#xa;Bearer Token? -&gt; JWT Flow&#xa;Session Cookie? -&gt; Legacy Flow&#xa;Nichts? -&gt; 401" vertex="1">
+          <mxGeometry height="70" width="880" x="300" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;verticalAlign=top;spacingTop=5;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="460" width="560" x="300" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-11" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=center;" value="Auth-Komponente (NEU)" vertex="1">
+          <mxGeometry height="25" width="250" x="440" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#66BB6A;fontSize=11;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="120" width="520" x="320" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-13" parent="1" style="text;html=1;fontSize=12;fontStyle=1;align=center;" value="Identity Broker Layer" vertex="1">
+          <mxGeometry height="20" width="180" x="480" y="683" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=10;" value="OidcProvider&#xa;(Auth Code + PKCE)" vertex="1">
+          <mxGeometry height="50" width="120" x="335" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=10;" value="LdapProvider&#xa;(Bestand)" vertex="1">
+          <mxGeometry height="50" width="120" x="465" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=10;" value="LocalProvider&#xa;(Username/PW)" vertex="1">
+          <mxGeometry height="50" width="120" x="595" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-17" parent="1" style="text;html=1;fontSize=10;fontStyle=2;align=center;" value="➡ Alle liefern: AuthenticatedIdentity { user_id, org_id, auth_method, idp_claims }" vertex="1">
+          <mxGeometry height="20" width="490" x="335" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#66BB6A;fontSize=11;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="110" width="520" x="320" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-19" parent="1" style="text;html=1;fontSize=12;fontStyle=1;align=center;" value="Token Service" vertex="1">
+          <mxGeometry height="20" width="120" x="505" y="818" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=10;" value="Token Issuer&#xa;(Access JWT +&#xa;Refresh Token)" vertex="1">
+          <mxGeometry height="50" width="115" x="335" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=10;" value="Refresh Manager&#xa;(Rotation +&#xa;Replay Detection)" vertex="1">
+          <mxGeometry height="50" width="120" x="465" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=10;" value="Revocation&#xa;(Blacklist +&#xa;Family Invalidation)" vertex="1">
+          <mxGeometry height="50" width="120" x="600" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#66BB6A;fontSize=11;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="80" width="520" x="320" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-24" parent="1" style="text;html=1;fontSize=12;fontStyle=1;align=center;" value="Key Management" vertex="1">
+          <mxGeometry height="20" width="120" x="505" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=10;" value="Key Store&#xa;(EdDSA Keypairs)" vertex="1">
+          <mxGeometry height="40" width="115" x="335" y="968" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=10;" value="Key Rotation&#xa;(Automatisch)" vertex="1">
+          <mxGeometry height="40" width="120" x="465" y="968" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=10;" value="JWKS Endpoint&#xa;/.well-known/jwks.json" vertex="1">
+          <mxGeometry height="40" width="130" x="600" y="968" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#42A5F5;fontSize=11;verticalAlign=top;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="460" width="290" x="890" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-29" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=center;" value="Bestand (UNVERÄNDERT)" vertex="1">
+          <mxGeometry height="25" width="220" x="930" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#42A5F5;fontSize=11;" value="Session-System&#xa;(Legacy Login)" vertex="1">
+          <mxGeometry height="45" width="250" x="910" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#42A5F5;fontSize=11;" value="User-Verwaltung&#xa;(Bestehende User-Tabelle)" vertex="1">
+          <mxGeometry height="45" width="250" x="910" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#42A5F5;fontSize=11;fontStyle=0;" value="Permission-System&#xa;(ABAC + Orga-Tree)&#xa;&#xa;Tausende Permissions&#xa;Benutzer x Ressource x Umgebung&#xa;In-Process Aufruf" vertex="1">
+          <mxGeometry height="100" width="250" x="910" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#42A5F5;fontSize=11;" value="Business-Logik&#xa;(Module / Komponenten)" vertex="1">
+          <mxGeometry height="45" width="250" x="910" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-34" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Auth-DB (NEU)&#xa;refresh_tokens&#xa;signing_keys&#xa;token_blacklist&#xa;user_identity_links&#xa;idp_configurations" vertex="1">
+          <mxGeometry height="110" width="150" x="380" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-35" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Framework-DB (Bestand)&#xa;users&#xa;permissions&#xa;org_tree&#xa;..." vertex="1">
+          <mxGeometry height="100" width="150" x="910" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;verticalAlign=top;spacingTop=5;dashed=1;" value="Zukünftige Microservices" vertex="1">
+          <mxGeometry height="180" width="220" x="1390" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#5C6BC0;fontSize=10;" value="Service A&#xa;(JWT Validation&#xa;via JWKS)" vertex="1">
+          <mxGeometry height="60" width="80" x="1410" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#5C6BC0;fontSize=10;" value="Service B&#xa;(JWT Validation&#xa;via JWKS)" vertex="1">
+          <mxGeometry height="60" width="80" x="1510" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-39" parent="1" style="text;html=1;fontSize=10;fontStyle=2;align=center;" value="➡ Permission-Lookup&#xa;via API oder eigener&#xa;Cache (Ausblick)" vertex="1">
+          <mxGeometry height="50" width="200" x="1400" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-40" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=10;" target="f9J1InU9gnIWjBl1ij2q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-41" connectable="0" parent="f9J1InU9gnIWjBl1ij2q-40" style="edgeLabel;html=1;fontSize=10;" value="Request" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-42" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=1.5;fontSize=10;" target="f9J1InU9gnIWjBl1ij2q-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="330" />
+              <mxPoint x="350" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-43" connectable="0" parent="f9J1InU9gnIWjBl1ij2q-42" style="edgeLabel;html=1;fontSize=10;" value="OIDC Redirect" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-44" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=1.5;fontSize=10;" target="f9J1InU9gnIWjBl1ij2q-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="390" />
+              <mxPoint x="200" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-45" connectable="0" parent="f9J1InU9gnIWjBl1ij2q-44" style="edgeLabel;html=1;fontSize=9;" value="Auth Code&#xa;+ Token Exchange" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-46" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=1.5;dashed=1;" target="f9J1InU9gnIWjBl1ij2q-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="860" />
+              <mxPoint x="880" y="768" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-47" connectable="0" parent="f9J1InU9gnIWjBl1ij2q-46" style="edgeLabel;html=1;fontSize=9;" value="User-Mapping&#xa;(ext. sub ➡ int. user)" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-48" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=1.5;" target="f9J1InU9gnIWjBl1ij2q-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-49" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#42A5F5;strokeWidth=1.5;" target="f9J1InU9gnIWjBl1ij2q-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-50" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#5C6BC0;strokeWidth=1.5;dashed=1;" target="f9J1InU9gnIWjBl1ij2q-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="988" />
+              <mxPoint x="770" y="1040" />
+              <mxPoint x="1330" y="1040" />
+              <mxPoint x="1330" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-51" connectable="0" parent="f9J1InU9gnIWjBl1ij2q-50" style="edgeLabel;html=1;fontSize=9;" value="Public Keys&#xa;(JWKS)" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-52" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=1.5;" target="f9J1InU9gnIWjBl1ij2q-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="585" />
+              <mxPoint x="1270" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-53" connectable="0" parent="f9J1InU9gnIWjBl1ij2q-52" style="edgeLabel;html=1;fontSize=9;" value="In-Process&#xa;Permission Check" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-54" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=center;" value="Token-Lifecycle: Vom Login bis zum Refresh" vertex="1">
+          <mxGeometry height="35" width="500" x="2110" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-55" parent="1" style="shape=mxgraph.basic.rect;fillColor=#E1D5E7;strokeColor=#9673a6;rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;verticalAlign=top;spacingTop=5;opacity=30;" value="Browser" vertex="1">
+          <mxGeometry height="965" width="180" x="1840" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-56" parent="1" style="shape=mxgraph.basic.rect;fillColor=#D5E8D4;strokeColor=#82b366;rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;verticalAlign=top;spacingTop=5;opacity=30;" value="Auth-Komponente" vertex="1">
+          <mxGeometry height="965" width="280" x="2040" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-57" parent="1" style="shape=mxgraph.basic.rect;fillColor=#DAE8FC;strokeColor=#6c8ebf;rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;verticalAlign=top;spacingTop=5;opacity=30;" value="Ext. IdP (Keycloak)" vertex="1">
+          <mxGeometry height="965" width="200" x="2340" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-58" parent="1" style="shape=mxgraph.basic.rect;fillColor=#FFF2CC;strokeColor=#d6b656;rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;verticalAlign=top;spacingTop=5;opacity=30;" value="Datenbank" vertex="1">
+          <mxGeometry height="965" width="180" x="2560" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-59" parent="1" style="text;html=1;fontSize=13;fontStyle=5;align=left;fillColor=#F8CECC;strokeColor=#B85450;rounded=1;spacingLeft=8;" value="Phase 1: OIDC Login" vertex="1">
+          <mxGeometry height="25" width="900" x="1840" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673a6;fontSize=10;" value="Klick: &quot;Login&#xa;mit SSO&quot;" vertex="1">
+          <mxGeometry height="40" width="130" x="1865" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" value="Generiere:&#xa;state, code_verifier,&#xa;code_challenge, nonce" vertex="1">
+          <mxGeometry height="45" width="180" x="2090" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;fontSize=9;fontStyle=2;dashed=1;" value="302 Redirect&#xa;→ IdP Login Page" vertex="1">
+          <mxGeometry height="35" width="130" x="1865" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;" value="User gibt&#xa;Credentials ein" vertex="1">
+          <mxGeometry height="35" width="130" x="2375" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;fontSize=9;fontStyle=2;dashed=1;" value="302 Redirect&#xa;→ /callback?code=..." vertex="1">
+          <mxGeometry height="35" width="130" x="1865" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-65" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-60" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#9673a6;" target="f9J1InU9gnIWjBl1ij2q-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-66" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-61" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;dashed=1;" target="f9J1InU9gnIWjBl1ij2q-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2180" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-67" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-62" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;" target="f9J1InU9gnIWjBl1ij2q-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-68" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;dashed=1;" target="f9J1InU9gnIWjBl1ij2q-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1930" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-69" parent="1" style="text;html=1;fontSize=13;fontStyle=5;align=left;fillColor=#F8CECC;strokeColor=#B85450;rounded=1;spacingLeft=8;" value="Phase 2: Token Exchange + User Mapping" vertex="1">
+          <mxGeometry height="25" width="900" x="1840" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" value="Callback mit&#xa;Auth Code" vertex="1">
+          <mxGeometry height="35" width="180" x="2090" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;" value="POST /token&#xa;code + code_verifier&#xa;→ id_token" vertex="1">
+          <mxGeometry height="45" width="150" x="2365" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" value="id_token validieren:&#xa;Signatur, iss, aud,&#xa;exp, nonce" vertex="1">
+          <mxGeometry height="45" width="180" x="2090" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" value="User-Mapping:&#xa;ext. sub →&#xa;user_identity_links&#xa;→ int. user_id" vertex="1">
+          <mxGeometry height="55" width="180" x="2090" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;fontSize=9;" value="SELECT user_id&#xa;FROM user_identity_links&#xa;WHERE ext_sub = ?" vertex="1">
+          <mxGeometry height="50" width="130" x="2585" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-75" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-64" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;" target="f9J1InU9gnIWjBl1ij2q-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-76" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-70" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;" target="f9J1InU9gnIWjBl1ij2q-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-77" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-71" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;" target="f9J1InU9gnIWjBl1ij2q-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2320" y="630" />
+              <mxPoint x="2320" y="668" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-78" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-72" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;" target="f9J1InU9gnIWjBl1ij2q-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-79" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d6b656;" target="f9J1InU9gnIWjBl1ij2q-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-80" parent="1" style="text;html=1;fontSize=13;fontStyle=5;align=left;fillColor=#F8CECC;strokeColor=#B85450;rounded=1;spacingLeft=8;" value="Phase 3: Internes Token-Paar ausstellen" vertex="1">
+          <mxGeometry height="25" width="900" x="1840" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;fontStyle=0;" value="Token Issuer:&#xa;Access JWT signieren&#xa;(EdDSA, kid, 10 min)&#xa;+ Refresh Token&#xa;generieren (opaque)" vertex="1">
+          <mxGeometry height="75" width="180" x="2090" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;fontSize=9;" value="INSERT refresh_tokens&#xa;(token_hash, user_id,&#xa;family_id, expires_at)" vertex="1">
+          <mxGeometry height="50" width="130" x="2585" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673a6;fontSize=10;" value="Empfängt:&#xa;Access JWT (Body)&#xa;Refresh Token&#xa;(httpOnly Cookie)" vertex="1">
+          <mxGeometry height="60" width="130" x="1865" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-84" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;" target="f9J1InU9gnIWjBl1ij2q-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-85" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-81" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d6b656;" target="f9J1InU9gnIWjBl1ij2q-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-86" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-81" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#9673a6;" target="f9J1InU9gnIWjBl1ij2q-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-87" parent="1" style="text;html=1;fontSize=13;fontStyle=5;align=left;fillColor=#F8CECC;strokeColor=#B85450;rounded=1;spacingLeft=8;" value="Phase 4: API-Anfrage mit JWT" vertex="1">
+          <mxGeometry height="25" width="900" x="1840" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-88" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673a6;fontSize=10;" value="API Request&#xa;Authorization:&#xa;Bearer &lt;JWT&gt;" vertex="1">
+          <mxGeometry height="45" width="130" x="1865" y="945" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" value="Auth-Middleware:&#xa;1. Signatur prüfen&#xa;2. Claims validieren&#xa;3. AuthContext erzeugen&#xa;4. → Permission-System" vertex="1">
+          <mxGeometry height="70" width="180" x="2090" y="937" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-90" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-88" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#9673a6;" target="f9J1InU9gnIWjBl1ij2q-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-91" parent="1" style="text;html=1;fontSize=13;fontStyle=5;align=left;fillColor=#F8CECC;strokeColor=#B85450;rounded=1;spacingLeft=8;" value="Phase 5: Token Refresh (nach Ablauf)" vertex="1">
+          <mxGeometry height="25" width="900" x="1840" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673a6;fontSize=10;" value="JWT abgelaufen!&#xa;POST /auth/refresh&#xa;(Cookie: refresh)" vertex="1">
+          <mxGeometry height="50" width="130" x="1865" y="1065" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" value="Refresh Manager:&#xa;1. Token valid?&#xa;2. Nicht revoked?&#xa;3. Nicht schon benutzt?&#xa;   → Replay Detection!" vertex="1">
+          <mxGeometry height="70" width="180" x="2090" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-94" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;fontSize=9;" value="1. Alten RT als&#xa;   replaced markieren&#xa;2. Neuen RT einfügen&#xa;   (gleiche family_id)" vertex="1">
+          <mxGeometry height="65" width="130" x="2585" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673a6;fontSize=10;" value="Neues Token-Paar:&#xa;Access JWT +&#xa;Refresh Token (neu)" vertex="1">
+          <mxGeometry height="50" width="130" x="1865" y="1145" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" value="Neues Paar&#xa;ausstellen +&#xa;signieren" vertex="1">
+          <mxGeometry height="45" width="120" x="2120" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-97" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-92" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#9673a6;" target="f9J1InU9gnIWjBl1ij2q-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-98" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-93" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d6b656;" target="f9J1InU9gnIWjBl1ij2q-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-99" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-94" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;" target="f9J1InU9gnIWjBl1ij2q-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2650" y="1173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9J1InU9gnIWjBl1ij2q-100" edge="1" parent="1" source="f9J1InU9gnIWjBl1ij2q-96" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#9673a6;" target="f9J1InU9gnIWjBl1ij2q-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
