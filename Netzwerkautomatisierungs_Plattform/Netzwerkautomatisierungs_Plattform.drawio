@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="Seite-1" id="fT3VOe8Z3RHu2klQRoYS">
-    <mxGraphModel dx="1665" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1801" dy="1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kaZbJji6FZLcTihntc-Q-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;header style=&quot;box-sizing: border-box; column-span: all; padding-bottom: 24px; color: rgb(0, 0, 0); font-family: Clan, Verdana, Geneva, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;h2 class=&quot;&quot; style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0.5rem; font-weight: 400; line-height: 1.2; font-size: 2.1rem; padding-bottom: 24px; font-family: ClanHeadline !important;&quot;&gt;Plattform für Netzwerk-Automatisierung&lt;/h2&gt;&lt;h3 class=&quot;&quot; style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0.5rem; font-weight: 400; line-height: 1.2; font-size: 1.6rem; padding-bottom: 24px; font-family: ClanHeadline !important;&quot;&gt;in Kooperation mit DVZ&lt;/h3&gt;&lt;/header&gt;&lt;div class=&quot;largeText&quot; style=&quot;box-sizing: border-box; columns: 400px 3; column-gap: 24px; color: rgb(0, 0, 0); font-family: Clan, Verdana, Geneva, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem;&quot;&gt;Zur Optimierung des Geschäftsbetriebs und zur Erfüllung sicherheitstechnischer Standards (z. B. BSI-IT-Grundschutz) werden Aufgaben zunehmend automatisiert. Gerade in größeren Organisationen wie einer Hochschule betrifft dies jedoch viele verschiedene Systeme, die unterschiedliche Anforderungen bzw. Techniken zur Automatisierung stellen. Für den operativen Betrieb ergibt sich daher vor allem das organisatorische Problem, den Überblick über all diese Prozesse zu behalten. Denn klassische Automatisierungsplattformen fokussieren sich in der Regel nur auf einen Teilbereich oder sind an bestimmte Hersteller gebunden. Ziel dieser Abschlussarbeit mit integriertem Praxisprojekt ist es, einen Modellaufbau für eine geeignete Automatisierungsumgebung zu erstellen.&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="380" width="720" x="-800" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-12" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kaZbJji6FZLcTihntc-Q-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="-493" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-13" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kaZbJji6FZLcTihntc-Q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-14" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kaZbJji6FZLcTihntc-Q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Netzwerkautomatiserung&lt;div&gt;Config Management&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="-280" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-15" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="kaZbJji6FZLcTihntc-Q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-16" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="kaZbJji6FZLcTihntc-Q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-17" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kaZbJji6FZLcTihntc-Q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ansible" vertex="1">
+          <mxGeometry height="80" width="120" x="-20" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="agentenlos, YAML-basiert, Ökosystem, Modulen für Netzwerkgeräte/Server" vertex="1">
+          <mxGeometry height="85" width="170" x="-230" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ansible Galaxy&lt;div&gt;(Rollensammlung)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="60" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ansible Collections&lt;div&gt;(herstellerspezifische Module)&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="210" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-18" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kaZbJji6FZLcTihntc-Q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-19" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kaZbJji6FZLcTihntc-Q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Nornir&lt;div&gt;(Python)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-20" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="NAPALM&lt;div&gt;Abstraktionsschicht für Netzwerkgeräte&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="kaZbJji6FZLcTihntc-Q-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Netmiko&amp;nbsp;&lt;div&gt;(SSH Geräteinteraktion)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="910" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
