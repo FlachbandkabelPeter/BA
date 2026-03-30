@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Seite-1" id="fT3VOe8Z3RHu2klQRoYS">
-    <mxGraphModel dx="1801" dy="1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1663" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,6 +8,9 @@
           <mxGeometry height="380" width="720" x="-800" y="30" as="geometry" />
         </mxCell>
         <mxCell id="kaZbJji6FZLcTihntc-Q-12" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kaZbJji6FZLcTihntc-Q-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-14" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kaZbJji6FZLcTihntc-Q-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
@@ -57,6 +60,56 @@
         </mxCell>
         <mxCell id="kaZbJji6FZLcTihntc-Q-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Netmiko&amp;nbsp;&lt;div&gt;(SSH Geräteinteraktion)&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="200" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-15" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="1000" />
+              <mxPoint x="-40" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-16" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-17" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-18" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="R-3qN989VwVqPDDzdEvO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-19" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Orchestrierungs-plattformen" vertex="1">
+          <mxGeometry height="80" width="120" x="-370" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="AWX" vertex="1">
+          <mxGeometry height="80" width="120" x="-430" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="StackStorm&lt;div&gt;Event-Driven Automation, regelbasierte Workflows&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="-270" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Rundeck&lt;div&gt;Job Scheduling, Orchestrierung mit Fokus auf Operations&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="155" x="-95" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-8" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Ansible Automation Platform" vertex="1">
+          <mxGeometry height="150" width="140" x="-600" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-9" parent="R-3qN989VwVqPDDzdEvO-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Web UI und Ansible API" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-10" parent="R-3qN989VwVqPDDzdEvO-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="RBAC" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-11" parent="R-3qN989VwVqPDDzdEvO-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Scheduling" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-12" parent="R-3qN989VwVqPDDzdEvO-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Audit Logging" vertex="1">
+          <mxGeometry height="30" width="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Event-Driven Ansible (EDA)" vertex="1">
+          <mxGeometry height="80" width="120" x="30" y="1030" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
