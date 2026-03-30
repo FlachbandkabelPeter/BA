@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Seite-1" id="fT3VOe8Z3RHu2klQRoYS">
-    <mxGraphModel dx="1663" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3603" dy="2171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,6 +11,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-14" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-29" edge="1" parent="1" source="kaZbJji6FZLcTihntc-Q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kaZbJji6FZLcTihntc-Q-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
@@ -110,6 +113,38 @@
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Event-Driven Ansible (EDA)" vertex="1">
           <mxGeometry height="80" width="120" x="30" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-25" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-26" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-27" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-28" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-780" y="828" />
+              <mxPoint x="-780" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Netzwerkprotokolle" vertex="1">
+          <mxGeometry height="80" width="120" x="-750" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="NETCONF&lt;div&gt;XML&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-970" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="RESTCONF&lt;div&gt;REST&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-970" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="YANG-Mdelle DAtenmodellierung für Netzwerkkonfiuration" vertex="1">
+          <mxGeometry height="90" width="150" x="-985" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="R-3qN989VwVqPDDzdEvO-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="gNMI/gRPC" vertex="1">
+          <mxGeometry height="80" width="120" x="-970" y="595" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
