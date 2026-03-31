@@ -169,7 +169,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-79" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Soll-Zustand&lt;br&gt;definieren &amp; durchsetzen" vertex="1">
-          <mxGeometry height="55" width="130" x="-730" y="689" as="geometry" />
+          <mxGeometry height="55" width="130" x="-725" y="689" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-80" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-81">
           <mxGeometry relative="1" as="geometry">
