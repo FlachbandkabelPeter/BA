@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Seite-1" id="fT3VOe8Z3RHu2klQRoYS">
-    <mxGraphModel dx="12754" dy="5980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4429" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="Nornir (Python)" vertex="1">
-          <mxGeometry height="55" width="110" x="331.58000000000004" y="954" as="geometry" />
+          <mxGeometry height="55" width="110" x="334.08000000000004" y="944" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-42" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-43">
           <mxGeometry relative="1" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" value="Terraform /&lt;br&gt;OpenTofu (IaC)" vertex="1">
-          <mxGeometry height="55" width="120" x="371.58000000000004" y="1014" as="geometry" />
+          <mxGeometry height="55" width="120" x="326.58000000000004" y="1034" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-46" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-47">
           <mxGeometry relative="1" as="geometry">
@@ -64,7 +64,13 @@
           <mxGeometry height="85" width="140" x="-910" y="974" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-48" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-49">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-890" y="950" />
+              <mxPoint x="-957" y="950" />
+              <mxPoint x="-957" y="902" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="NETCONF&lt;br&gt;(XML, RFC 6241)" vertex="1">
           <mxGeometry height="55" width="125" x="-1130" y="874" as="geometry" />
@@ -82,7 +88,13 @@
           <mxGeometry height="55" width="135" x="-1140" y="1034" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-54" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-55">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-890" y="1080" />
+              <mxPoint x="-957" y="1080" />
+              <mxPoint x="-957" y="1142" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="gNMI / gRPC&lt;br&gt;Streaming-Telemetrie" vertex="1">
           <mxGeometry height="55" width="135" x="-1140" y="1114" as="geometry" />
@@ -127,7 +139,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-69" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Multi-Vendor /&lt;br&gt;Multi-Domain" vertex="1">
-          <mxGeometry height="55" width="110" x="-570" y="856.5" as="geometry" />
+          <mxGeometry height="55" width="110" x="-560" y="890" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-70" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-71">
           <mxGeometry relative="1" as="geometry" />
@@ -243,7 +255,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-104" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="Event-Driven&lt;br&gt;Ansible (EDA)" vertex="1">
-          <mxGeometry height="55" width="120" x="-95" y="1349" as="geometry" />
+          <mxGeometry height="55" width="120" x="-92.5" y="1349" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-105" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-106">
           <mxGeometry relative="1" as="geometry" />
@@ -297,7 +309,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-122" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="Helm Charts" vertex="1">
-          <mxGeometry height="40" width="100" x="-400" y="1489" as="geometry" />
+          <mxGeometry height="40" width="100" x="-397.5" y="1524" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-123" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-124">
           <mxGeometry relative="1" as="geometry">
@@ -314,7 +326,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-126" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="Prometheus +&lt;br&gt;Grafana" vertex="1">
-          <mxGeometry height="50" width="110" x="90" y="1569" as="geometry" />
+          <mxGeometry height="50" width="110" x="85" y="1564" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-127" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-124" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-128">
           <mxGeometry relative="1" as="geometry" />
@@ -323,7 +335,13 @@
           <mxGeometry height="50" width="110" x="90" y="1639" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-129" edge="1" parent="1" source="R-3qN989VwVqPDDzdEvO-124" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="R-3qN989VwVqPDDzdEvO-130">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-29" y="1680" />
+              <mxPoint x="40" y="1680" />
+              <mxPoint x="40" y="1732" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-130" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="Zabbix / PRTG" vertex="1">
           <mxGeometry height="45" width="100" x="90" y="1709" as="geometry" />
@@ -332,7 +350,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-132" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Closed-Loop Automation&lt;br&gt;(Events → Playbooks)" vertex="1">
-          <mxGeometry height="55" width="145" x="-150" y="1709" as="geometry" />
+          <mxGeometry height="55" width="145" x="-147.5" y="1709" as="geometry" />
         </mxCell>
         <mxCell id="R-3qN989VwVqPDDzdEvO-133" parent="1" style="swimlane;startSize=23;fontStyle=1;fillColor=none;strokeColor=default;fontSize=10;whiteSpace=wrap;html=1;" value="Legende" vertex="1">
           <mxGeometry height="140" width="160" x="320" y="1449" as="geometry" />
