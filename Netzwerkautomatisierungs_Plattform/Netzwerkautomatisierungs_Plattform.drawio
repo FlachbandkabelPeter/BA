@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Seite-1" id="fT3VOe8Z3RHu2klQRoYS">
-    <mxGraphModel dx="12754" dy="5180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8314" dy="3588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -352,6 +352,16 @@
         <UserObject label="&lt;img src=&quot;https://substackcdn.com/image/fetch/$s_!v3pU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2537ba5b-8447-4e54-a84b-2267a865449d_4518x4500.png&quot;&gt;" link="&lt;img src=&quot;https://substackcdn.com/image/fetch/$s_!v3pU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2537ba5b-8447-4e54-a84b-2267a865449d_4518x4500.png&quot;&gt;" id="R-3qN989VwVqPDDzdEvO-140">
           <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
             <mxGeometry height="4570" width="4630" x="1310" y="430" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;img src=&quot;https://assets.bytebytego.com/diagrams/0063-a-cheatsheet-on-infrastructure-as-code-landscape.png&quot;&gt;" id="VBw7ZHZGRlIc58Z77iQ5-1">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="40" width="30" x="1280" y="5040" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;img src=&quot;https://assets.bytebytego.com/diagrams/0225-how-terraform-creates-infra-at-scale.png&quot;&gt;" id="VBw7ZHZGRlIc58Z77iQ5-2">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="40" width="30" x="3830" y="5020" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
