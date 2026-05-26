@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36">
   <diagram name="Seite-1" id="fT3VOe8Z3RHu2klQRoYS">
-    <mxGraphModel dx="6895" dy="2042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6850" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N9ceoD4WxRzxWlEynazG-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="920" width="830" x="5580" y="12120" as="geometry" />
+        </mxCell>
         <mxCell id="kaZbJji6FZLcTihntc-Q-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;header style=&quot;box-sizing: border-box; column-span: all; padding-bottom: 24px; color: rgb(0, 0, 0); font-family: Clan, Verdana, Geneva, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;h2 class=&quot;&quot; style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0.5rem; font-weight: 400; line-height: 1.2; padding-bottom: 24px; font-family: ClanHeadline !important;&quot;&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;Plattform für Netzwerk-Automatisierung&lt;/font&gt;&lt;/h2&gt;&lt;h3 class=&quot;&quot; style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0.5rem; font-weight: 400; line-height: 1.2; padding-bottom: 24px; font-family: ClanHeadline !important;&quot;&gt;&lt;font size=&quot;3&quot;&gt;in Kooperation mit DVZ&lt;/font&gt;&lt;/h3&gt;&lt;/header&gt;&lt;div class=&quot;largeText&quot; style=&quot;box-sizing: border-box; columns: 400px 3; column-gap: 24px; color: rgb(0, 0, 0); font-family: Clan, Verdana, Geneva, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem;&quot;&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Zur Optimierung des Geschäftsbetriebs und zur Erfüllung sicherheitstechnischer Standards (z. B. BSI-IT-Grundschutz) werden Aufgaben zunehmend automatisiert. Gerade in größeren Organisationen wie einer Hochschule betrifft dies jedoch viele verschiedene Systeme, die unterschiedliche Anforderungen bzw. Techniken zur Automatisierung stellen. Für den operativen Betrieb ergibt sich daher vor allem das organisatorische Problem, den Überblick über all diese Prozesse zu behalten. Denn klassische Automatisierungsplattformen fokussieren sich in der Regel nur auf einen Teilbereich oder sind an bestimmte Hersteller gebunden. Ziel dieser Abschlussarbeit mit integriertem Praxisprojekt ist es, einen Modellaufbau für eine geeignete Automatisierungsumgebung zu erstellen.&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="1510" width="1491.58" x="-1240" y="190" as="geometry" />
         </mxCell>
@@ -2622,6 +2625,98 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Trigger" vertex="1">
+          <mxGeometry height="60" width="120" x="5630" y="12170" as="geometry" />
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ansible" vertex="1">
+          <mxGeometry height="60" width="120" x="5990" y="12170" as="geometry" />
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ara Calllback" vertex="1">
+          <mxGeometry height="60" width="120" x="6260" y="12170" as="geometry" />
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ara" vertex="1">
+          <mxGeometry height="60" width="120" x="6570" y="12170" as="geometry" />
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Checkmk" vertex="1">
+          <mxGeometry height="60" width="120" x="6960" y="12170" as="geometry" />
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-6" edge="1" parent="1" source="N9ceoD4WxRzxWlEynazG-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5700" y="12600" as="sourcePoint" />
+            <mxPoint x="5690" y="12960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-7" edge="1" parent="1" source="N9ceoD4WxRzxWlEynazG-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6060" y="12288" as="sourcePoint" />
+            <mxPoint x="6050" y="12960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-8" edge="1" parent="1" source="N9ceoD4WxRzxWlEynazG-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6230" y="12420" as="sourcePoint" />
+            <mxPoint x="6320" y="12960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-9" edge="1" parent="1" source="N9ceoD4WxRzxWlEynazG-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6700" y="12740" as="sourcePoint" />
+            <mxPoint x="6630" y="12960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-10" edge="1" parent="1" source="N9ceoD4WxRzxWlEynazG-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="7380" y="12790" as="sourcePoint" />
+            <mxPoint x="7020" y="12970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="5700" y="12280" as="sourcePoint" />
+            <mxPoint x="6050" y="12280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-12" connectable="0" parent="N9ceoD4WxRzxWlEynazG-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ansible Playbook" vertex="1">
+          <mxGeometry relative="1" x="0.0171" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6050" y="12310" as="sourcePoint" />
+            <mxPoint x="6320" y="12310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-14" connectable="0" parent="N9ceoD4WxRzxWlEynazG-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Callback hooks" vertex="1">
+          <mxGeometry relative="1" x="0.0171" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="6320" y="12350" as="sourcePoint" />
+            <mxPoint x="6630" y="12350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-16" connectable="0" parent="N9ceoD4WxRzxWlEynazG-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sends Data to API" vertex="1">
+          <mxGeometry relative="1" x="0.0171" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="7020" y="12310" as="sourcePoint" />
+            <mxPoint x="6640" y="12310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-19" connectable="0" parent="N9ceoD4WxRzxWlEynazG-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Pulls results" vertex="1">
+          <mxGeometry relative="1" x="0.0158" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9ceoD4WxRzxWlEynazG-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GitLab CI" vertex="1">
+          <mxGeometry height="30" width="60" x="5610" y="12090" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
